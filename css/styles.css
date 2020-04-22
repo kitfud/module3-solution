@@ -1,0 +1,75 @@
+
+
+body {
+  font-size: 16px;
+  color: white;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+  overflow: auto;
+}
+
+
+#text{
+  height: 1000px;
+  background:orange;
+  color:black;
+  padding:20px;
+  margin:20px;
+}
+
+.divider{
+  color:black;
+  background:black;
+}
+
+.droptext{
+  color:#61122f;
+  position:relative;
+  top:45%;
+  left:45%;
+ 
+}
+
+hr.solid {
+  border: 1px solid black;
+  width:100%;
+  top:0;
+  left:0;
+  padding:0;
+  margin:0;
+  position:absolute;
+  
+}
+
+.container-fluid{
+  border-bottom:2px solid black;
+  margin-top:0;
+
+}
+
+@media (max-width: 768px){
+.navbar-header{
+  border-bottom:2px solid black;
+  background: lightgrey;
+}
+}
+
+.nav .navbar-nav .visible-xs{
+  margin:20px;
+  padding:0;
+  position:relative;
+
+}
+
+
+.collapse .navbar-collapse{
+    background:lightgray;
+}
+
+
+li{
+  background-color: lightblue;
+}
+
+
+
